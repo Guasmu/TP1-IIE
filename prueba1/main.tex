@@ -1,0 +1,9 @@
+\documentclass{article}
+\usepackage{circuitikz}
+
+\begin{document}
+    \begin{circuitikz}[american]
+        \draw (0,0) to[V, invert, v=$V_1$] (0,3) -- (2,3)
+        to[R, l=$R_1$] (2,0) -- (0,0);
+    \end{circuitikz}
+\end{document}
